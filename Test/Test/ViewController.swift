@@ -18,7 +18,9 @@ class ViewController: UIViewController {
         
         self.view.layoutIfNeeded()
         
-        print(temp)
+        for _ in 0...5 {
+            print(temp)
+        }
     }
 
     override func didReceiveMemoryWarning() {
