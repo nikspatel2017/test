@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
         self.view.layoutIfNeeded()
         
-        print("temp")
+        print(temp)
     }
 
     override func didReceiveMemoryWarning() {
